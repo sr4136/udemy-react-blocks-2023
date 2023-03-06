@@ -6,5 +6,6 @@
   "category": "text",
   "icon": "welcome-learn-more",
   "textdomain": "firstblock",
-  "editorScript": "file:./index.js"
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/style-index.css"
 }

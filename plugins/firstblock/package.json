@@ -1,0 +1,28 @@
+{
+	"name": "wp-content",
+	"version": "1.0.0",
+	"description": "- [Gutenberg Blocks for WordPress and React Developers [2022]](https://www.udemy.com/course/gutenberg)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sr4136/udemy-react-blocks-2023.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sr4136/udemy-react-blocks-2023/issues"
+	},
+	"homepage": "https://github.com/sr4136/udemy-react-blocks-2023#readme",
+	"devDependencies": {
+		"@wordpress/scripts": "^25.5.1"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^11.5.0",
+		"@wordpress/blocks": "^12.5.0"
+	}
+}
