@@ -144,7 +144,7 @@ Use `wp.data` to find the available data for the site.
       ```
     - `npx wp-scripts build` -> `npm run build`
     - `npx wp-scripts start` -> `npm run start`
-- Because we use `import { registerBlockType } from "@wordpress/blocks";` within our block's `index.js`, upon inspecting `build/index.js`, it essentially comments out everything under the assumption that the global `wp` variable will be available. ~"It doesn't bundle it, but references it."
+- Because we use `import { registerBlockType } from "@wordpress/blocks";` within our block's `index.js`, upon inspecting `build/index.js`, it essentially comments out everything under the assumption that the global `wp` variable will be available in the browser. ~"It doesn't bundle it, but references it."
 </details>
 
 
