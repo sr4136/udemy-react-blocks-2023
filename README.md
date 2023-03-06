@@ -69,7 +69,9 @@ Use `wp.data` to find the available data for the site.
 -  `wp.data.select("core/editor")` will contain info about the currently editing post.
     - `wp.data.select("core/editor").getBlocks()` is the **Post State Array** as in [1.6 above](https://user-images.githubusercontent.com/4681620/184430652-62857eb8-6bf1-43ff-ad06-7919f0f86aa7.png)
 
-- <img src="https://user-images.githubusercontent.com/4681620/223177938-b21cd28d-f1b1-4ac1-b746-a307b31545bf.png" align="right" width="300px" /> Since the html blocks and comments are what is used to store ALL of the info about a block-- and then parsed for React/editing: when we create blocks, we define how to store/retrieve that data. Some of it is in the attributes comment, while the rest is in the html.   
+- <img src="https://user-images.githubusercontent.com/4681620/223177938-b21cd28d-f1b1-4ac1-b746-a307b31545bf.png" align="right" width="300px" /> Since the html blocks and comments are what is used to store ALL of the info about a block-- and then parsed for React/editing: when we create blocks, we define how to store/retrieve that data. Some of it is in the attributes comment, while the rest is in the html. Ex:
+    - > get the image url from the `<img>` tag's `src` attribute.
+    - > get the image's caption from the content of the `<figcaption>` element.
 </details>
 
 ---
