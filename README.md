@@ -150,6 +150,8 @@ Use `wp.data` to find the available data for the site.
 
 <details><summary>2.13 - Compiling & Loading SASS Files</summary>
 
+- in `block.json`, you can pass a `style` param to load css in frontend AND editor.
+    - and/or you can pass an `editorStyle` param that will load css in just the editor.
 - Start getting "core" block properties: classes, attributes etc.
     - `npm install @wordpress/block-editor`
     - add `import { useBlockProps } from "@wordpress/block-editor";` to `block.json`
