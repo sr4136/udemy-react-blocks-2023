@@ -217,5 +217,12 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
     
 - Similar overrides can be done for the gradients with modifying theme suppor for `editor-gradient-presets`.
 </details>    
+
+<details><summary>2.22 - Custom Sizing & Custom Units</summary>
     
+- adding theme support for `custom-spacing` enables padding/margin controls for blocks that support it
+    - ...as well as other dimensions like min-height for covor blocks.
+    
+    
+</details>    
 
