@@ -187,3 +187,11 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
     - `npm install eslint-config-prettier --save-dev`
     
 </details>
+
+<details><summary>2.18 - Adding Custom Styles to the Block Editor</summary>
+    
+- `add_theme_support( "editor-styles" )` along with `add_editor_style( "style-editor.css" )` (or any other stylesheet) in order to load css for ONLY the backend block editor.
+    - adding styles to the `body` tag will get auto-converted to the block editor's wrapper, which happens to be `.editor-styles wrapper`.
+        - `body { background-color: #ff0000; }` will become `.editor-styles-wrapper { background-color: #ff0000; }`
+    
+</details>
