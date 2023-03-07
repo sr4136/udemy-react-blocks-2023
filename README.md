@@ -181,6 +181,7 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
 
 
 <details><summary>2.15 - Configuring ESLint & Prettier for JavaScript Files</summary>
+    
 - Install WP standards for eslint/prettier. Configure them with `.eslintrc` and `package.json`.
     - `npm install @wordpress/eslint-plugin --save-dev`
     - `npm install eslint-config-prettier --save-dev`
