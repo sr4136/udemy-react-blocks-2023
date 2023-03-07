@@ -198,3 +198,11 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
 - `add_theme_support( "responsive-embeds" )` to make embeds, like YT videos.. responsive.
     
 </details>
+    
+    
+<details><summary>2.19 - Adding Support for Align Wide and Align Full</summary>
+    
+- `add_theme_support( "align-wide" );` and `add_theme_support( "align-full" );` to get more alignment options for blocks that support it.
+- Some extra theme CSS would be required to make these look right, especially at certain breakpoints.
+    
+</details>
