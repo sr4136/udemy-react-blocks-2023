@@ -195,5 +195,6 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
         - `body { background-color: #ff0000; }` will become `.editor-styles-wrapper { background-color: #ff0000; }`
     - Additional assumptions and transforms happen, for example:
         - `.wp-block { max-width: 800px }` will become `.editor-styles-wrapper .wp-block { max-width: 800px }`
+- `add_theme_support( "responsive-embeds" )` to make embeds, like YT videos.. responsive.
     
 </details>
