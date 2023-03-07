@@ -191,7 +191,9 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
 <details><summary>2.18 - Adding Custom Styles to the Block Editor</summary>
     
 - `add_theme_support( "editor-styles" )` along with `add_editor_style( "style-editor.css" )` (or any other stylesheet) in order to load css for ONLY the backend block editor.
-    - adding styles to the `body` tag will get auto-transformed to the block editor's wrapper, which happens to be `.editor-styles wrapper`.
+    - Adding styles to the `body` tag will get auto-transformed to the block editor's wrapper, which happens to be `.editor-styles wrapper`.
         - `body { background-color: #ff0000; }` will become `.editor-styles-wrapper { background-color: #ff0000; }`
+    - Additional assumptions and transforms happen, for example:
+        - `.wp-block { max-width: 800px }` will become `.editor-styles-wrapper .wp-block { max-width: 800px }`
     
 </details>
