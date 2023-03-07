@@ -206,3 +206,16 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
 - Some extra theme CSS would be required to make these look right, especially at certain breakpoints.
     
 </details>
+    
+<details><summary>2.20 - Adding Custom Color Pallettes</summary>
+    
+- [`add_theme_support( "editor-color-palette" );`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-support/#block-color-palettes) will override the default color pallette with the supplied one.
+    - There are [ways](https://wordpress.stackexchange.com/questions/357851/add-colors-to-existing-color-palette-without-replacing-it) to append to the default color palette as well. 
+    - Corresponding CSS must be added for the frontend color classes.
+    - To remove the "custom color" (color picker) option from the pallette, you have to ADD theme support
+        - `add_theme_support( "disable-custom-colors" );`
+    
+- Similar overrides can be done for the gradients with modifying theme suppor for `editor-gradient-presets`.
+</details>    
+    
+
