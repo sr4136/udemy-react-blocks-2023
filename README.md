@@ -226,18 +226,34 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
 
 - Instead of defining the block's icon with a dashicon in `block.json`, we can define it in via `index.js` as a dashicon-- as well as background/foreground colors or pass in an SVG.
     - in `registerBlockType()`:
+
         ```
-        icon: {
-            src: 'text-page',
-            background: '#ff0000',
-            foreground: '#ffffff',
-        },
+		icon: {
+		    src: 'text-page',
+		    background: '#ff0000',
+		    foreground: '#ffffff',
+		},
         ```
+
         ```
-        icon: (
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="50" />
-            </svg>
-	    ),
+		icon: (
+		    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="50" cy="50" r="50" />
+		    </svg>
+		),
         ```
+    - And still can use bg/fg:
+
+        ```
+		icon: {
+		    src: (
+			<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+			    <circle cx="50" cy="50" r="50" />
+			</svg>
+		    ),
+		    background: '#00ff00',
+		    foreground: '#ffffff',
+		},
+        ```
+	
 </details>
