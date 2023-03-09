@@ -222,7 +222,21 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
     
 - adding theme support for `custom-spacing` enables padding/margin controls for blocks that support it
     - ...as well as other dimensions like min-height for covor blocks.
-    
-    
+
 </details>    
 
+### Section 4: Exploring Block Features by Creating a Simple Block
+    
+<details><summary>4.25 - Customizing the Block's Icon</summary>
+
+- Instead of defining the block's icon with a dashicon in `block.json`, we can define it in via `index.js` as a dashicon-- as well as background/foreground colors or pass in an SVG.
+    - in `registerBlockType()`:
+        ```
+        icon: {
+            src: 'text-page',
+            background: '#ff0000',
+            foreground: '#ffffff',
+        },
+        ```
+
+</details>
