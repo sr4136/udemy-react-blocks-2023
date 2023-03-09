@@ -29,8 +29,6 @@
 - Sidebar is for *advanced* settings, formatting, etc-- not anything *required*.
 </details>
 
----
-
 <details><summary>1.5 - The representations of data/blocks/html.</summary>
 
 **https://www.udemy.com/course/gutenberg/learn/lecture/27108846**
@@ -45,15 +43,11 @@
     - It's the React Component that takes that saved HTML and makes it editable again within its own context.
 </details>
 
----
-
 <details><summary>1.6 - How the Visual Editor is constructed from plain html.</summary>
 
 **https://www.udemy.com/course/gutenberg/learn/lecture/27108860**
 ![firefox_dyIRcdjqEh](https://user-images.githubusercontent.com/4681620/184430652-62857eb8-6bf1-43ff-ad06-7919f0f86aa7.png)
 </details>
-
----
 
 <details><summary>1.7 - A Brief Introduction to the Redux-like Data Stores in the Block Editor</summary>
     
@@ -73,8 +67,6 @@ Use `wp.data` to find the available data for the site.
     - > get the image url from the `<img>` tag's `src` attribute.
     - > get the image's caption from the content of the `<figcaption>` element.
 </details>
-
----
 
 <details><summary>1.8 - The Post State Array in Action</summary>
 
@@ -98,7 +90,8 @@ Use `wp.data` to find the available data for the site.
 <img src="https://docs.google.com/drawings/d/1iuownt5etcih7rMMvPvh0Mny8zUA1Z28saxjxaWmfJ0/pub?w=1234&h=453">
 </details>
 
-
+---
+    
 ### Section 2: Let's Create our First Block
 
 <details><summary>2.10 - Registering our First Block</summary>
@@ -223,7 +216,9 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
 - adding theme support for `custom-spacing` enables padding/margin controls for blocks that support it
     - ...as well as other dimensions like min-height for covor blocks.
 
-</details>    
+</details>
+    
+---
 
 ### Section 4: Exploring Block Features by Creating a Simple Block
     
