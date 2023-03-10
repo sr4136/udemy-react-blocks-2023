@@ -257,3 +257,11 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
         ```
 	
 </details>
+
+	
+<details><summary>4.28 - 28. The AlignmentToolbar Component</summary>
+ 
+- Separate out the onchange functions: https://github.com/sr4136/udemy-react-blocks-simple/blob/4768e7b67343e8bc1be042bb33db7f57cb0c873a/src/edit.js#L27-L33
+- Add additional classes to components using `useBlockProps`: https://github.com/sr4136/udemy-react-blocks-simple/blob/4768e7b67343e8bc1be042bb33db7f57cb0c873a/src/edit.js#L49
+
+</details>
