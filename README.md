@@ -11,7 +11,7 @@
     - Location set to `Local Sites\udemyreactblocks2023\app\public\wp-content`
         - In order to capture changes to Plugins AND Theme modifications.
 
-## Course Sections vs Commits:
+## Course Sections vs Commits
 - **Section 1.01 - 1.08**: Notes below
 - **Section 2.09 - 2.17**: https://github.com/sr4136/udemy-react-blocks-2023/commits/
 - **Section 4.23 - 4.24**: https://github.com/sr4136/udemy-react-blocks-boilerplate/commits/
@@ -21,7 +21,7 @@
 - **Section 7.87 - 7.88**: https://github.com/sr4136/udemy-react-blocks-plugin-boilerplate/commits/
 - **Section 8.90 - x.xx**: https://github.com/sr4136/udemy-react-blocks-data-store/commits/
 
-Notes
+## Notes
 
 ### Section 1: An Introduction to the Block Editor
 <details><summary>1.4 - Concepts of what belongs where for a block in terms of content, modifiers/formatting, and other settings.</summary>
