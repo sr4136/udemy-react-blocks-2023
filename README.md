@@ -8,8 +8,9 @@
     - Directory: `Local Sites\udemyreactblocks2023`
     - URL: [udemyreactblocks2023.local/](udemyreactblocks2023.local)
 - **GH Repo**
-    - Location set to `Local Sites\udemyreactblocks2023\app\public\wp-content`
+    - Initially set to `Local Sites\udemyreactblocks2023\app\public\wp-content`
         - In order to capture changes to Plugins AND Theme modifications.
+    - Then new repos were created to handle the growing complexity as noted in the next section.
 
 ## Course Sections vs Commits
 - **Section 1.01 - 1.08**: Notes below
