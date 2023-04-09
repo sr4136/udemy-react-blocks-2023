@@ -20,7 +20,8 @@
 - **Section 5.43 - 5.74**: https://github.com/sr4136/udemy-react-blocks-members/commits/
 - **Section 6.77 - 6.85**: https://github.com/sr4136/udemy-react-blocks-dynamic/commits/
 - **Section 7.87 - 7.88**: https://github.com/sr4136/udemy-react-blocks-plugin-boilerplate/commits/
-- **Section 8.90 - x.xx**: https://github.com/sr4136/udemy-react-blocks-data-store/commits/
+- **Section 8.90 - 8.91**: https://github.com/sr4136/udemy-react-blocks-data-store/commits/
+- **Section 8.92 - x.xx**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits
 
 ## Notes
 
