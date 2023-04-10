@@ -270,3 +270,8 @@ Now that we know the behind-the-scenes, we can automate most of this with `wp-cr
 - Add additional classes to components using `useBlockProps`: https://github.com/sr4136/udemy-react-blocks-simple/blob/4768e7b67343e8bc1be042bb33db7f57cb0c873a/src/edit.js#L49
 
 </details>
+
+
+---
+
+### I stopped taking notes when it got into more coding than concepts/foundations~
