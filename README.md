@@ -13,15 +13,15 @@
     - Then new repos were created to handle the growing complexity as noted in the next section.
 
 ## Course Sections vs Commits
-- **Section 1.01 - 1.08**: Notes below
-- **Section 2.09 - 2.17**: https://github.com/sr4136/udemy-react-blocks-2023/commits/
-- **Section 4.23 - 4.24**: https://github.com/sr4136/udemy-react-blocks-boilerplate/commits/
-- **Section 4.26 - 4.39**: https://github.com/sr4136/udemy-react-blocks-simple/commits/
-- **Section 5.43 - 5.74**: https://github.com/sr4136/udemy-react-blocks-members/commits/
-- **Section 6.77 - 6.85**: https://github.com/sr4136/udemy-react-blocks-dynamic/commits/
-- **Section 7.87 - 7.88**: https://github.com/sr4136/udemy-react-blocks-plugin-boilerplate/commits/
-- **Section 8.90 - 8.91**: https://github.com/sr4136/udemy-react-blocks-data-store/commits/
-- **Section 8.92 - x.xx**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits and https://github.com/sr4136/udemy-react-blocks-data-store/commits/
+- **Section 1.01 ~ 1.08**: Notes below
+- **Section 2.09 ~ 2.17**: https://github.com/sr4136/udemy-react-blocks-2023/commits/
+- **Section 4.23 ~ 4.24**: https://github.com/sr4136/udemy-react-blocks-boilerplate/commits/
+- **Section 4.26 ~ 4.39**: https://github.com/sr4136/udemy-react-blocks-simple/commits/
+- **Section 5.43 ~ 5.74**: https://github.com/sr4136/udemy-react-blocks-members/commits/
+- **Section 6.77 ~ 6.85**: https://github.com/sr4136/udemy-react-blocks-dynamic/commits/
+- **Section 7.87 ~ 7.88**: https://github.com/sr4136/udemy-react-blocks-plugin-boilerplate/commits/
+- **Section 8.90 ~ 8.91**: https://github.com/sr4136/udemy-react-blocks-data-store/commits/
+- **Section 8.92 ~ 8.99**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits and https://github.com/sr4136/udemy-react-blocks-data-store/commits/
 
 ## Notes
 
