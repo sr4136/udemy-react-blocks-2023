@@ -24,8 +24,7 @@
 - **Section 8.92 ~ 8.99**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits and https://github.com/sr4136/udemy-react-blocks-data-store/commits/
 - **Section 9.100 ~ 9.105**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits and https://github.com/sr4136/udemy-react-blocks-data-store/commits/
 - **Section 10.106**: https://github.com/sr4136/udemy-react-blocks-members/commits/
-- **Section 10.107**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits
-- **Section 10.108**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits
+- **Section 10.107 ~ 10.109**: https://github.com/sr4136/udemy-react-blocks-plugin-datastore/commits
 
 ## Notes
 
